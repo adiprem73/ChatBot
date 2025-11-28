@@ -142,7 +142,7 @@ const Chatbot = () => {
 
       {/* Chat window */}
       <div
-        className={`relative my-auto w-screen h-screen bg-[#0A192F] border border-gray-800 rounded-lg shadow-2xl flex flex-col overflow-hidden z-40 transition-all duration-300 ease-in-out ${
+        className={`relative my-auto w-[70wh] h-screen bg-[#0A192F] border border-gray-800 rounded-lg shadow-2xl flex flex-col overflow-hidden z-40 transition-all duration-300 ease-in-out ${
           isOpen
             ? "opacity-100 scale-100"
             : "opacity-0 scale-95 pointer-events-none"
